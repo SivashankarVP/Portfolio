@@ -16,14 +16,7 @@ import { useTheme } from '../contexts/ThemeContext';
 const Home = () => {
     const { theme } = useTheme();
 
-    const [is3dEnabled, setIs3dEnabled] = useState(() => {
-        if (typeof window !== 'undefined') {
-            const isMobile = /iPhone|iPad|iPod|Android/i.test(navigator.userAgent);
-            const isSmallScreen = window.innerWidth < 1024;
-            return !isMobile && !isSmallScreen;
-        }
-        return true;
-    });
+    const [is3dEnabled, setIs3dEnabled] = useState(true);
 
     const toggle3dAssets = () => {
         setIs3dEnabled(prev => !prev);
@@ -98,7 +91,7 @@ const Home = () => {
                 </div>
 
                 {/* 3. Render Lanyard secara kondisional */}
-                <div className="hidden lg:flex flex-1 justify-center h-[600px] w-full order-first lg:order-none">
+                <div className="flex flex-1 justify-center h-[400px] lg:h-[600px] w-full order-first lg:order-none">
                     {is3dEnabled && (
                         <Lanyard position={[0, 0, 15]} gravity={[0, -40, 0]} fov={18} transparent={true} />
                     )}
