@@ -64,7 +64,7 @@ const ContactFormDB = () => {
       >
         <div className="text-center mb-8">
           <h3 className="text-3xl font-bold text-white mb-3">
-            Get In <span className="text-transparent bg-clip-text bg-gradient-to-r from-cyan-400 to-emerald-400">Touch</span>
+            Get In <span className="text-transparent bg-clip-text bg-gradient-to-r from-violet-400 to-fuchsia-400">Touch</span>
           </h3>
           <p className="text-slate-400">
             Have a question or want to work together? Drop me a message!
@@ -85,7 +85,7 @@ const ContactFormDB = () => {
               onChange={handleChange}
               required
               placeholder="John Doe"
-              className="w-full px-4 py-3 bg-slate-800/50 border border-slate-700/50 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20 transition-all duration-300"
+              className="w-full px-4 py-3 bg-slate-800/50 border border-slate-700/50 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-violet-400 focus:ring-2 focus:ring-violet-400/20 transition-all duration-300"
             />
           </div>
 
@@ -102,7 +102,7 @@ const ContactFormDB = () => {
               onChange={handleChange}
               required
               placeholder="john@example.com"
-              className="w-full px-4 py-3 bg-slate-800/50 border border-slate-700/50 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20 transition-all duration-300"
+              className="w-full px-4 py-3 bg-slate-800/50 border border-slate-700/50 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-violet-400 focus:ring-2 focus:ring-violet-400/20 transition-all duration-300"
             />
           </div>
 
@@ -118,7 +118,7 @@ const ContactFormDB = () => {
               value={formData.subject}
               onChange={handleChange}
               placeholder="Project Inquiry"
-              className="w-full px-4 py-3 bg-slate-800/50 border border-slate-700/50 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20 transition-all duration-300"
+              className="w-full px-4 py-3 bg-slate-800/50 border border-slate-700/50 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-violet-400 focus:ring-2 focus:ring-violet-400/20 transition-all duration-300"
             />
           </div>
 
@@ -135,7 +135,7 @@ const ContactFormDB = () => {
               required
               rows="5"
               placeholder="Tell me about your project..."
-              className="w-full px-4 py-3 bg-slate-800/50 border border-slate-700/50 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-cyan-400 focus:ring-2 focus:ring-cyan-400/20 transition-all duration-300 resize-none"
+              className="w-full px-4 py-3 bg-slate-800/50 border border-slate-700/50 rounded-xl text-white placeholder-slate-500 focus:outline-none focus:border-violet-400 focus:ring-2 focus:ring-violet-400/20 transition-all duration-300 resize-none"
             />
           </div>
 
@@ -146,12 +146,12 @@ const ContactFormDB = () => {
                 initial={{ opacity: 0, y: -10, scale: 0.95 }}
                 animate={{ opacity: 1, y: 0, scale: 1 }}
                 exit={{ opacity: 0, y: -10, scale: 0.95 }}
-                className="p-4 bg-emerald-500/10 border border-emerald-500/30 rounded-xl flex items-start gap-3"
+                className="p-4 bg-fuchsia-500/10 border border-fuchsia-500/30 rounded-xl flex items-start gap-3"
               >
-                <FaCheckCircle className="text-emerald-400 text-xl flex-shrink-0 mt-0.5" />
+                <FaCheckCircle className="text-fuchsia-400 text-xl flex-shrink-0 mt-0.5" />
                 <div>
-                  <p className="text-emerald-400 font-semibold">Message sent successfully!</p>
-                  <p className="text-emerald-300/70 text-sm mt-1">
+                  <p className="text-fuchsia-400 font-semibold">Message sent successfully!</p>
+                  <p className="text-fuchsia-300/70 text-sm mt-1">
                     Thank you for reaching out. I'll get back to you soon!
                   </p>
                 </div>
@@ -183,7 +183,7 @@ const ContactFormDB = () => {
             disabled={loading}
             whileHover={{ scale: loading ? 1 : 1.02 }}
             whileTap={{ scale: loading ? 1 : 0.98 }}
-            className="w-full px-6 py-4 bg-gradient-to-r from-cyan-600 to-emerald-600 hover:from-cyan-500 hover:to-emerald-500 text-white font-bold rounded-xl transition-all duration-300 flex items-center justify-center gap-3 shadow-lg hover:shadow-cyan-500/30 disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:scale-100"
+            className="w-full px-6 py-4 bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:from-violet-500 hover:to-fuchsia-500 text-white font-bold rounded-xl transition-all duration-300 flex items-center justify-center gap-3 shadow-lg hover:shadow-violet-500/30 disabled:opacity-60 disabled:cursor-not-allowed disabled:hover:scale-100"
           >
             {loading ? (
               <>
@@ -201,7 +201,7 @@ const ContactFormDB = () => {
 
         <p className="text-center text-slate-500 text-sm mt-6">
           Or reach me directly at{' '}
-          <a href="mailto:your.email@example.com" className="text-cyan-400 hover:text-cyan-300 transition-colors">
+          <a href="mailto:your.email@example.com" className="text-violet-400 hover:text-violet-300 transition-colors">
             your.email@example.com
           </a>
         </p>

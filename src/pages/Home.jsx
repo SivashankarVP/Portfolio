@@ -41,14 +41,14 @@ const Home = () => {
             animate={{ opacity: 1, x: 0 }}
             exit={{ opacity: 0, x: 20 }}
             transition={{ duration: 0.5 }}
-            className="relative z-10 px-8 max-w-7xl mx-auto"
+            className="relative z-10 px-4 md:px-8 max-w-7xl mx-auto"
         >
             <button
                 onClick={toggle3dAssets}
                 title={`Toggle 3D Assets (${is3dEnabled ? 'On' : 'Off'})`}
                 className={`fixed top-24 right-4 z-50 p-3 rounded-full border backdrop-blur-sm transition-all duration-300 ease-in-out hover:scale-110
           ${is3dEnabled
-                        ? 'bg-cyan-500/20 border-cyan-400 text-cyan-300 shadow-[0_0_12px_2px_#00ffdc80]'
+                        ? 'bg-violet-500/20 border-violet-400 text-violet-300 shadow-[0_0_12px_2px_#00ffdc80]'
                         : 'dark:bg-slate-800/50 dark:border-slate-700 dark:text-slate-400 bg-white border-slate-200 text-slate-600 shadow-sm'
                     }`}
             >
@@ -64,7 +64,7 @@ const Home = () => {
                         initial={{ opacity: 0, x: -60 }}
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 0.7, delay: 0.25, ease: "easeOut" }}
-                        className="text-4xl md:text-4xl font-moderniz font-bold leading-tight select-none main-heading"
+                        className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-moderniz font-bold leading-tight select-none main-heading"
                         style={{
                             color: theme === 'dark' ? "#00ffdc" : "#0f172a",
                             textShadow: theme === 'dark'
@@ -85,14 +85,14 @@ const Home = () => {
                         <Skills />
                     </motion.div>
                     <motion.div initial={{ opacity: 0, y: 40 }} animate={{ opacity: 1, y: 0 }} transition={{ duration: 0.7, delay: 1.0, ease: "easeOut" }} className="flex flex-row gap-4 mt-8">
-                        <a href="https://github.com/SivashankarVP" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" className="group relative flex h-12 w-12 items-center justify-center rounded-full border dark:border-slate-700 border-slate-200 dark:bg-slate-900/[0.8] bg-white text-slate-600 dark:text-white transition-all duration-300 hover:border-cyan-400 hover:bg-slate-50 dark:hover:bg-slate-800 hover:shadow-md dark:hover:shadow-[0_0_24px_2px_#00ffdc]">
-                            <FaGithub className="h-6 w-6 dark:text-slate-400 text-slate-600 transition-all duration-300 group-hover:text-cyan-600 dark:group-hover:text-cyan-300" />
+                        <a href="https://github.com/SivashankarVP" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile" className="group relative flex h-12 w-12 items-center justify-center rounded-full border dark:border-slate-700 border-slate-200 dark:bg-slate-900/[0.8] bg-white text-slate-600 dark:text-white transition-all duration-300 hover:border-violet-400 hover:bg-slate-50 dark:hover:bg-slate-800 hover:shadow-md dark:hover:shadow-[0_0_24px_2px_#00ffdc]">
+                            <FaGithub className="h-6 w-6 dark:text-slate-400 text-slate-600 transition-all duration-300 group-hover:text-violet-600 dark:group-hover:text-violet-300" />
                         </a>
-                        <a href="https://instagram.com/SivashankarVP" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile" className="group relative flex h-12 w-12 items-center justify-center rounded-full border dark:border-slate-700 border-slate-200 dark:bg-slate-900/[0.8] bg-white text-slate-600 dark:text-white transition-all duration-300 hover:border-cyan-400 hover:bg-slate-50 dark:hover:bg-slate-800 hover:shadow-md dark:hover:shadow-[0_0_24px_2px_#00ffdc]">
-                            <FaInstagram className="h-6 w-6 dark:text-slate-400 text-slate-600 transition-all duration-300 group-hover:text-cyan-600 dark:group-hover:text-cyan-300" />
+                        <a href="https://instagram.com/SivashankarVP" target="_blank" rel="noopener noreferrer" aria-label="Instagram Profile" className="group relative flex h-12 w-12 items-center justify-center rounded-full border dark:border-slate-700 border-slate-200 dark:bg-slate-900/[0.8] bg-white text-slate-600 dark:text-white transition-all duration-300 hover:border-violet-400 hover:bg-slate-50 dark:hover:bg-slate-800 hover:shadow-md dark:hover:shadow-[0_0_24px_2px_#00ffdc]">
+                            <FaInstagram className="h-6 w-6 dark:text-slate-400 text-slate-600 transition-all duration-300 group-hover:text-violet-600 dark:group-hover:text-violet-300" />
                         </a>
-                        <a href="https://linkedin.com/in/SivashankarVP" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" className="group relative flex h-12 w-12 items-center justify-center rounded-full border dark:border-slate-700 border-slate-200 dark:bg-slate-900/[0.8] bg-white text-slate-600 dark:text-white transition-all duration-300 hover:border-cyan-400 hover:bg-slate-50 dark:hover:bg-slate-800 hover:shadow-md dark:hover:shadow-[0_0_24px_2px_#00ffdc]">
-                            <FaLinkedin className="h-6 w-6 dark:text-slate-400 text-slate-600 transition-all duration-300 group-hover:text-cyan-600 dark:group-hover:text-cyan-300" />
+                        <a href="https://linkedin.com/in/SivashankarVP" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile" className="group relative flex h-12 w-12 items-center justify-center rounded-full border dark:border-slate-700 border-slate-200 dark:bg-slate-900/[0.8] bg-white text-slate-600 dark:text-white transition-all duration-300 hover:border-violet-400 hover:bg-slate-50 dark:hover:bg-slate-800 hover:shadow-md dark:hover:shadow-[0_0_24px_2px_#00ffdc]">
+                            <FaLinkedin className="h-6 w-6 dark:text-slate-400 text-slate-600 transition-all duration-300 group-hover:text-violet-600 dark:group-hover:text-violet-300" />
                         </a>
                     </motion.div>
                 </div>
@@ -113,19 +113,19 @@ const Home = () => {
                 <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.2 }} transition={{ duration: 0.6, ease: "easeOut" }} className="text-center">
                     <div className="relative flex w-full flex-col items-center justify-center overflow-hidden mb-20">
                         <VelocityScroll defaultVelocity={3} numRows={1} className="max-w-full">
-                            <span className="font-moderniz font-bold" style={{ fontSize: "2.5rem", lineHeight: "1.1", color: theme === 'dark' ? "#00ffdc" : "#0891b2", textShadow: theme === 'dark' ? "2px 2px 0 #000754, 4px 4px 0 #4079ff, 0 4px 12px #40ffaa, 0 1px 0 #00ffdc" : "none", background: "none", WebkitBackgroundClip: "unset", WebkitTextFillColor: "unset", filter: theme === 'dark' ? 'none' : 'none', opacity: theme === 'dark' ? 1 : 0.3 }}>
+                            <span className="font-moderniz font-bold" style={{ fontSize: "clamp(1.8rem, 5vw, 2.5rem)", lineHeight: "1.1", color: theme === 'dark' ? "#00ffdc" : "#0891b2", textShadow: theme === 'dark' ? "2px 2px 0 #000754, 4px 4px 0 #4079ff, 0 4px 12px #40ffaa, 0 1px 0 #00ffdc" : "none", background: "none", WebkitBackgroundClip: "unset", WebkitTextFillColor: "unset", filter: theme === 'dark' ? 'none' : 'none', opacity: theme === 'dark' ? 1 : 0.3 }}>
                                 ABOUT <span style={{ color: theme === 'dark' ? "#fff" : "#0891b2" }}>ME</span>
                             </span>
                         </VelocityScroll>
                         <div className={`pointer-events-none absolute inset-y-0 left-0 w-1/4 bg-gradient-to-r ${theme === 'dark' ? 'from-[#060010]' : 'from-slate-50'}`}></div>
                         <div className={`pointer-events-none absolute inset-y-0 right-0 w-1/4 bg-gradient-to-l ${theme === 'dark' ? 'from-[#060010]' : 'from-slate-50'}`}></div>
                         <VelocityScroll defaultVelocity={-3} numRows={1} className="max-w-full">
-                            <span className="font-moderniz font-bold" style={{ fontSize: "2.5rem", lineHeight: "1.1", color: theme === 'dark' ? "#00ffdc" : "#0891b2", textShadow: theme === 'dark' ? "2px 2px 0 #000754, 4px 4px 0 #4079ff, 0 4px 12px #40ffaa, 0 1px 0 #00ffdc" : "none", background: "none", WebkitBackgroundClip: "unset", WebkitTextFillColor: "unset", filter: theme === 'dark' ? 'none' : 'none', opacity: theme === 'dark' ? 1 : 0.3 }}>
+                            <span className="font-moderniz font-bold" style={{ fontSize: "clamp(1.8rem, 5vw, 2.5rem)", lineHeight: "1.1", color: theme === 'dark' ? "#00ffdc" : "#0891b2", textShadow: theme === 'dark' ? "2px 2px 0 #000754, 4px 4px 0 #4079ff, 0 4px 12px #40ffaa, 0 1px 0 #00ffdc" : "none", background: "none", WebkitBackgroundClip: "unset", WebkitTextFillColor: "unset", filter: theme === 'dark' ? 'none' : 'none', opacity: theme === 'dark' ? 1 : 0.3 }}>
                                 ABOUT <span style={{ color: theme === 'dark' ? "#fff" : "#0891b2" }}>ME</span>
                             </span>
                         </VelocityScroll>
                     </div>
-                    <p className="text-lg dark:text-cyan-200/70 text-slate-600 mt-2 font-cascadia px-1 mb-20">
+                    <p className="text-lg dark:text-violet-200/70 text-slate-600 mt-2 font-cascadia px-1 mb-20">
                         ✧ Passionate about coding and creative technology ✧
                     </p>
                 </motion.div>
@@ -157,10 +157,10 @@ const Home = () => {
                         <p className="dark:text-white/80 text-slate-600 leading-relaxed mt-4 font-cascadia text-justify">
                             Saya adalah mahasiswa Teknik Informatika di Universitas Indo Global Mandiri Palembang yang memiliki minat besar dalam pengembangan Full Stack dan teknologi web modern. Saya selalu bersemangat untuk belajar hal baru dan menciptakan solusi digital yang inovatif.
                         </p>
-                        <div className="my-6 dark:bg-slate-900/50 bg-slate-50 border-l-4 dark:border-[#00ffdc] border-cyan-600 p-4 rounded-r-lg italic dark:text-white/70 text-slate-700 font-cascadia dark:shadow-none shadow-md">
+                        <div className="my-6 dark:bg-slate-900/50 bg-slate-50 border-l-4 dark:border-[#00ffdc] border-violet-600 p-4 rounded-r-lg italic dark:text-white/70 text-slate-700 font-cascadia dark:shadow-none shadow-md">
                             "Whoever strives shall succeed."
                         </div>
-                        <div className="flex flex-row sm:flex-row gap-4 mt-8 justify-center md:justify-start items-center">
+                        <div className="flex flex-col sm:flex-row gap-4 mt-8 justify-center md:justify-start items-center">
                             <ButtonMovingBorder as="a" href="/cv.pdf" download duration={3000} borderRadius="0.75rem" className="dark:bg-slate-900/[0.8] bg-white border dark:border-slate-800 border-slate-200 dark:text-white text-slate-800 font-semibold flex items-center justify-center gap-2 transition-all duration-300 dark:shadow-none shadow-md hover:shadow-lg dark:hover:shadow-[0_0_24px_8px_#40ffaa]">
                                 <FaDownload /> Download CV
                             </ButtonMovingBorder>
@@ -173,18 +173,18 @@ const Home = () => {
 
                 <motion.div initial={{ opacity: 0, y: 30 }} whileInView={{ opacity: 1, y: 0 }} viewport={{ once: true, amount: 0.2 }} transition={{ duration: 0.5, ease: "easeOut", delay: 0.3 }} className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto mt-10 px-4 md:px-0">
                     {stats.map((stat, index) => (
-                        <div key={index} className="group relative p-6 rounded-2xl dark:bg-slate-900/90 bg-white border dark:border-slate-700/50 border-slate-200 dark:shadow-none shadow-lg transition-all duration-300 hover:border-cyan-400/50 hover:shadow-xl dark:hover:shadow-[0_0_24px_0px_#00ffdc50] cursor-pointer">
+                        <div key={index} className="group relative p-6 rounded-2xl dark:bg-slate-900/90 bg-white border dark:border-slate-700/50 border-slate-200 dark:shadow-none shadow-lg transition-all duration-300 hover:border-violet-400/50 hover:shadow-xl dark:hover:shadow-[0_0_24px_0px_#00ffdc50] cursor-pointer">
                             <div className="flex justify-between items-start">
                                 <div className="flex flex-col">
-                                    <div className="p-3 mb-4 rounded-full dark:bg-slate-800/80 bg-slate-50 border dark:border-slate-700/60 border-slate-100 w-max dark:group-hover:bg-cyan-900/50 group-hover:bg-cyan-50 group-hover:border-cyan-200 transition-all duration-300">
-                                        <div className="text-2xl dark:text-slate-400 text-slate-500 group-hover:text-cyan-600 dark:group-hover:text-cyan-300 transition-colors duration-300">{stat.icon}</div>
+                                    <div className="p-3 mb-4 rounded-full dark:bg-slate-800/80 bg-slate-50 border dark:border-slate-700/60 border-slate-100 w-max dark:group-hover:bg-violet-900/50 group-hover:bg-violet-50 group-hover:border-violet-200 transition-all duration-300">
+                                        <div className="text-2xl dark:text-slate-400 text-slate-500 group-hover:text-violet-600 dark:group-hover:text-violet-300 transition-colors duration-300">{stat.icon}</div>
                                     </div>
-                                    <h3 className="text-sm font-semibold uppercase tracking-wider dark:text-slate-400 text-slate-500 group-hover:text-cyan-700 dark:group-hover:text-slate-300 transition-colors duration-300">{stat.title}</h3>
+                                    <h3 className="text-sm font-semibold uppercase tracking-wider dark:text-slate-400 text-slate-500 group-hover:text-violet-700 dark:group-hover:text-slate-300 transition-colors duration-300">{stat.title}</h3>
                                     <p className="text-xs dark:text-slate-500 text-slate-400 mt-1">{stat.description}</p>
                                 </div>
                                 <div className="flex flex-col items-end">
-                                    <p className="text-5xl font-bold dark:text-white text-slate-900 transition-all duration-300 group-hover:text-cyan-600 dark:group-hover:text-cyan-300">{stat.value}</p>
-                                    <FaArrowRight className="text-slate-400 mt-auto group-hover:text-cyan-500 transition-all duration-300 -rotate-45" />
+                                    <p className="text-5xl font-bold dark:text-white text-slate-900 transition-all duration-300 group-hover:text-violet-600 dark:group-hover:text-violet-300">{stat.value}</p>
+                                    <FaArrowRight className="text-slate-400 mt-auto group-hover:text-violet-500 transition-all duration-300 -rotate-45" />
                                 </div>
                             </div>
                         </div>

@@ -83,13 +83,13 @@ const Preloader = ({ onFinished }) => {
                 animate={{ opacity: 1, y: 0, transition: { duration: 0.8, delay: 0.8 } }}
                 className="flex justify-center gap-6"
               >
-                <a href="https://github.com/SivashankarVP" target="_blank" rel="noopener noreferrer" className="dark:hover:text-[#00ffdc] hover:text-cyan-600 transition-all duration-300 transform hover:scale-110">
+                <a href="https://github.com/SivashankarVP" target="_blank" rel="noopener noreferrer" className="dark:hover:text-[#00ffdc] hover:text-violet-600 transition-all duration-300 transform hover:scale-110">
                   <Github size={32} />
                 </a>
-                <a href="https://www.linkedin.com/in/SivashankarVP/" target="_blank" rel="noopener noreferrer" className="dark:hover:text-[#00ffdc] hover:text-cyan-600 transition-all duration-300 transform hover:scale-110">
+                <a href="https://www.linkedin.com/in/SivashankarVP/" target="_blank" rel="noopener noreferrer" className="dark:hover:text-[#00ffdc] hover:text-violet-600 transition-all duration-300 transform hover:scale-110">
                   <Linkedin size={32} />
                 </a>
-                <a href="https://www.instagram.com/SivashankarVP" target="_blank" rel="noopener noreferrer" className="dark:hover:text-[#00ffdc] hover:text-cyan-600 transition-all duration-300 transform hover:scale-110">
+                <a href="https://www.instagram.com/SivashankarVP" target="_blank" rel="noopener noreferrer" className="dark:hover:text-[#00ffdc] hover:text-violet-600 transition-all duration-300 transform hover:scale-110">
                   <Instagram size={32} />
                 </a>
               </motion.div>

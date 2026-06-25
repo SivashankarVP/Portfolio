@@ -112,10 +112,10 @@ const Header = () => {
         <a
           href={href}
           onClick={(e) => handleNavClick(e, href)}
-          className={`relative block dark:text-white text-slate-700 font-[Rubik] font-bold text-base tracking-wider py-2 transition-transform duration-300 hover:scale-110 group ${isActive ? 'text-cyan-500 dark:text-cyan-400' : ''}`}
+          className={`relative block dark:text-white text-slate-700 font-[Rubik] font-bold text-base tracking-wider py-2 transition-transform duration-300 hover:scale-110 group ${isActive ? 'text-violet-500 dark:text-violet-400' : ''}`}
         >
           {children}
-          <span className={`absolute bottom-1 left-0 block h-[2px] w-0 dark:bg-[#00ffdc] bg-cyan-600 transition-all duration-500 group-hover:w-full ${isActive ? 'w-full' : ''}`}></span>
+          <span className={`absolute bottom-1 left-0 block h-[2px] w-0 dark:bg-[#00ffdc] bg-violet-600 transition-all duration-500 group-hover:w-full ${isActive ? 'w-full' : ''}`}></span>
         </a>
       </li>
     );
@@ -236,7 +236,7 @@ const Header = () => {
                     </ul>
                     <button
                       onClick={handleAdminAccess}
-                      className="flex items-center gap-2 dark:text-slate-400 text-slate-500 hover:text-cyan-600 dark:hover:text-cyan-400 transition-colors duration-300 pointer-events-auto"
+                      className="flex items-center gap-2 dark:text-slate-400 text-slate-500 hover:text-violet-600 dark:hover:text-violet-400 transition-colors duration-300 pointer-events-auto"
                       title={isAuthenticated ? "Admin Dashboard" : "Admin Login"}
                     >
                       <FaShieldAlt className={`text-lg ${isAuthenticated ? 'text-green-500' : 'currentColor'}`} />

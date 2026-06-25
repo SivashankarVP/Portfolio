@@ -49,9 +49,9 @@ const CertificatesFromDB = () => {
     return (
       <div className="flex justify-center items-center py-20">
         <div className="relative">
-          <div className="w-16 h-16 border-4 border-emerald-200/20 border-t-emerald-400 rounded-full animate-spin"></div>
+          <div className="w-16 h-16 border-4 border-fuchsia-200/20 border-t-fuchsia-400 rounded-full animate-spin"></div>
           <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
-            <div className="w-8 h-8 bg-emerald-400/20 rounded-full animate-pulse"></div>
+            <div className="w-8 h-8 bg-fuchsia-400/20 rounded-full animate-pulse"></div>
           </div>
         </div>
       </div>
@@ -93,7 +93,7 @@ const CertificatesFromDB = () => {
                 animate={{ opacity: 1, scale: 1 }}
                 exit={{ opacity: 0, scale: 0.9 }}
                 transition={{ duration: 0.4, delay: index * 0.05 }}
-                className="group relative cursor-pointer overflow-hidden rounded-2xl bg-slate-900/50 border border-slate-800/50 hover:border-emerald-400/50 transition-all duration-500 shadow-lg hover:shadow-emerald-500/20"
+                className="group relative cursor-pointer overflow-hidden rounded-2xl bg-slate-900/50 border border-slate-800/50 hover:border-fuchsia-400/50 transition-all duration-500 shadow-lg hover:shadow-fuchsia-500/20"
                 whileHover={{ y: -8 }}
                 onClick={() => setPreviewCert(cert)}
               >
@@ -112,9 +112,9 @@ const CertificatesFromDB = () => {
                   <h3 className="text-lg font-bold text-white mb-2 line-clamp-2">
                     {cert.title}
                   </h3>
-                  <p className="text-cyan-400 text-sm font-semibold mb-1">{cert.issuer}</p>
+                  <p className="text-violet-400 text-sm font-semibold mb-1">{cert.issuer}</p>
                   {cert.issue_date && (
-                    <p className="text-emerald-400 text-xs font-medium mb-4">
+                    <p className="text-fuchsia-400 text-xs font-medium mb-4">
                       {formatDate(cert.issue_date)}
                     </p>
                   )}
@@ -125,12 +125,12 @@ const CertificatesFromDB = () => {
                       View Certificate
                     </span>
                     <div className="opacity-0 group-hover:opacity-100 transition-opacity">
-                      <FaExternalLinkAlt className="text-emerald-300" />
+                      <FaExternalLinkAlt className="text-fuchsia-300" />
                     </div>
                   </div>
                 </div>
 
-                <div className="absolute inset-0 bg-gradient-to-br from-emerald-500/0 via-transparent to-cyan-500/0 group-hover:from-emerald-500/5 group-hover:to-cyan-500/5 transition-all duration-500 pointer-events-none rounded-2xl"></div>
+                <div className="absolute inset-0 bg-gradient-to-br from-fuchsia-500/0 via-transparent to-violet-500/0 group-hover:from-fuchsia-500/5 group-hover:to-violet-500/5 transition-all duration-500 pointer-events-none rounded-2xl"></div>
               </motion.div>
             ))}
           </AnimatePresence>
@@ -142,7 +142,7 @@ const CertificatesFromDB = () => {
             {visibleCount < certificates.length ? (
               <motion.button
                 onClick={() => setVisibleCount(certificates.length)}
-                className="px-8 py-3 bg-gradient-to-r from-cyan-600 to-emerald-600 hover:from-cyan-500 hover:to-emerald-500 text-white font-semibold rounded-full transition-all duration-300 shadow-lg hover:shadow-cyan-500/25"
+                className="px-8 py-3 bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:from-violet-500 hover:to-fuchsia-500 text-white font-semibold rounded-full transition-all duration-300 shadow-lg hover:shadow-violet-500/25"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
               >
@@ -193,10 +193,10 @@ const CertificatesFromDB = () => {
                 <div className="mb-6">
                   <h2 className="text-3xl font-bold text-white mb-3">{previewCert.title}</h2>
                   <div className="flex flex-wrap gap-3">
-                    <span className="px-4 py-2 bg-cyan-500/20 rounded-full text-cyan-300 font-semibold border border-cyan-400/30">
+                    <span className="px-4 py-2 bg-violet-500/20 rounded-full text-violet-300 font-semibold border border-violet-400/30">
                       {previewCert.issuer}
                     </span>
-                    <span className="px-4 py-2 bg-emerald-500/20 rounded-full text-emerald-300 font-semibold border border-emerald-400/30">
+                    <span className="px-4 py-2 bg-fuchsia-500/20 rounded-full text-fuchsia-300 font-semibold border border-fuchsia-400/30">
                       {formatDate(previewCert.issue_date)}
                     </span>
                   </div>
@@ -218,7 +218,7 @@ const CertificatesFromDB = () => {
                       href={previewCert.credential_url}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="group px-8 py-3 bg-gradient-to-r from-cyan-600 to-emerald-600 hover:from-cyan-500 hover:to-emerald-500 text-white font-semibold rounded-full transition-all duration-300 flex items-center gap-3 shadow-lg hover:shadow-cyan-500/25"
+                      className="group px-8 py-3 bg-gradient-to-r from-violet-600 to-fuchsia-600 hover:from-violet-500 hover:to-fuchsia-500 text-white font-semibold rounded-full transition-all duration-300 flex items-center gap-3 shadow-lg hover:shadow-violet-500/25"
                     >
                       <FaDownload className="group-hover:scale-110 transition-transform" />
                       <span>View Credential</span>
