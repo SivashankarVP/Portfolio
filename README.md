@@ -1,4 +1,4 @@
-# PROJEK PORTFOLIO ZAIN AHMAD FAHREZI
+# PROJEK PORTFOLIO SIVASHANKAR VP
 
 Ini adalah proyek React yang dikembangkan menggunakan Vite — sebuah build tool modern dengan performa tinggi, dukungan Hot Module Replacement (HMR), dan waktu pengembangan yang cepat. Proyek ini menampilkan portfolio interaktif dengan elemen 3D dan animasi yang halus.
 
@@ -29,8 +29,8 @@ Ini adalah proyek React yang dikembangkan menggunakan Vite — sebuah build tool
 1. **Clone repositori ini:**
 
    ```bash
-   git clone https://github.com/username/zain-portofolio.git
-   cd zain-portofolio
+   git clone https://github.com/SivashankarVP/Portfolio.git
+   cd Portfolio
    ```
 
 2. **Install dependencies:**
@@ -65,7 +65,7 @@ Ini adalah proyek React yang dikembangkan menggunakan Vite — sebuah build tool
 
 ## ❗ Hak Cipta & Lisensi
 
-Proyek ini adalah karya asli milik **Zain Ahmad Fahrezi** dan hanya diperbolehkan untuk digunakan sebagai referensi pribadi.
+Proyek ini adalah karya asli milik **Sivashankar VP** dan hanya diperbolehkan untuk digunakan sebagai referensi pribadi.
 
 🚫 **Dilarang keras menjiplak, mengupload ulang, atau menggunakan sebagian/keseluruhan kode tanpa mencantumkan sumber atau tanpa izin.**
 
@@ -85,15 +85,15 @@ Terima kasih sudah menghargai karya pengembang! 🙏
 
 Jika kamu merasa proyek ini bermanfaat dan ingin memberikan dukungan:
 
-* 💳 **Dana:** 0896-0433-2830
-* 🏦 **Rekening BRI:** 0342 0107 8321 503 a.n. Zain Ahmad Fahrezi
-* 🅿️ **PayPal:** [paypal.me/zainahmadfahrezi](https://paypal.me/zainahmadfahrezi)
+* 💳 **Dana:** [Your Number]
+* 🏦 **Bank:** [Your Bank Details]
+* 🅿️ **PayPal:** [paypal.me/SivashankarVP](https://paypal.me/SivashankarVP)
 
 Setiap dukungan sangat berarti dan membantu saya untuk terus mengembangkan proyek-proyek open source lainnya. Terima kasih! 🙌
 
 ## 🌐 Sosial Media
 
-* 💼 [LinkedIn](https://www.linkedin.com/in/zainahmadfahrezi)
-* 📸 Instagram: [@zain.ahmadf](https://www.instagram.com/zain.ahmadf)
-* 🎥 TikTok: [@zainahmad.f](https://www.tiktok.com/@zainahmad.f)
+* 💼 [LinkedIn](https://www.linkedin.com/in/SivashankarVP)
+* 📸 Instagram: [@SivashankarVP](https://www.instagram.com/SivashankarVP)
+* 🎥 TikTok: [@SivashankarVP](https://www.tiktok.com/@SivashankarVP)
 

@@ -62,100 +62,10 @@ const dummyProjects = [
 ];
 
 // ===================================
-// DATA SERTIFIKAT ZAIN AHMAD FAHREZI
+// DATA SERTIFIKAT SIVASHANKAR VP
 // ===================================
 const userCertificates = [
-  {
-    title: "Belajar Membuat Aplikasi Web dengan React",
-    issuer: "Dicoding Indonesia",
-    date: "Des 2024",
-    link: "/certificates/Belajar Membuat Aplikasi Web dengan React.pdf",
-    image: "/certificate-images/Belajar Membuat Aplikasi Web dengan React.jpg",
-  },
-  {
-    title: "Belajar Dasar Pemrograman JavaScript",
-    issuer: "Dicoding Indonesia",
-    date: "Des 2024",
-    link: "/certificates/Belajar Dasar Pemrograman JavaScript.pdf",
-    image: "/certificate-images/Belajar Dasar Pemrograman JavaScript.jpg",
-  },
-  {
-    title: "Junior Web Developer (BNSP)",
-    issuer: "Badan Nasional Sertifikasi Profesi (BNSP)",
-    date: "Sep 2024",
-    link: "/certificates/SERTIFIKAT BNSP JUNIOR WEB DEVELOPER ZAIN AHMAD FAHREZI.jpeg",
-    image: "/certificate-images/SERTIFIKAT BNSP JUNIOR WEB DEVELOPER ZAIN AHMAD FAHREZI.jpg",
-  },
-  {
-    title: "Belajar Membuat Front-End Web untuk Pemula",
-    issuer: "Dicoding Indonesia",
-    date: "Des 2024",
-    link: "/certificates/Belajar Membuat Front-End Web untuk Pemula.pdf",
-    image: "/certificate-images/Belajar Membuat Front-End Web untuk Pemula.jpg",
-  },
-  {
-    title: "Operator Komputer Madya (BNSP)",
-    issuer: "Badan Nasional Sertifikasi Profesi (BNSP)",
-    date: "Des 2024",
-    link: "/certificates/Operator Komputer Madya BNSP.jpeg",
-    image: "/certificate-images/Operator Komputer Madya BNSP.jpg",
-  },
-  {
-    title: "Belajar Dasar Data Science",
-    issuer: "Dicoding Indonesia",
-    date: "Okt 2024",
-    link: "/certificates/Belajar Dasar Data Science.pdf",
-    image: "/certificate-images/Belajar Dasar Data Science.jpg",
-  },
-  {
-    title: "Belajar Dasar Structured Query Language (SQL)",
-    issuer: "Dicoding Indonesia",
-    date: "Okt 2024",
-    link: "/certificates/Belajar Dasar Structured Query Language (SQL).pdf",
-    image: "/certificate-images/Belajar Dasar Structured Query Language (SQL).jpg",
-  },
-  {
-    title: "Belajar Dasar AI",
-    issuer: "Dicoding Indonesia",
-    date: "Sep 2024",
-    link: "/certificates/Belajar Dasar AI.pdf",
-    image: "/certificate-images/Belajar Dasar AI.jpg",
-  },
-  {
-    title: "Belajar Dasar Manajemen Proyek",
-    issuer: "Dicoding Indonesia",
-    date: "Sep 2024",
-    link: "/certificates/Belajar Dasar Manajemen Proyek.pdf",
-    image: "/certificate-images/Belajar Dasar Manajemen Proyek.jpg",
-  },
-  {
-    title: "Operator Komputer Madya (VSGA)",
-    issuer: "Digital Talent Scholarship",
-    date: "Agu 2024",
-    link: "/certificates/Operator Komputer Madya VSGA.pdf",
-    image: "/certificate-images/Operator Komputer Madya VSGA.jpg",
-  },
-  {
-    title: "Junior Web Developer (VSGA)",
-    issuer: "Kominfo",
-    date: "Jul 2024",
-    link: "/certificates/Junior Web Developer VSGA.pdf",
-    image: "/certificate-images/Junior Web Developer VSGA.jpg",
-  },
-  {
-    title: "Java Fundamentals",
-    issuer: "Oracle",
-    date: "Jun 2024",
-    link: "/certificates/JAVA FUNDAMENTALS.pdf",
-    image: "/certificate-images/JAVA FUNDAMENTALS.jpg",
-  },
-  {
-    title: "Belajar Dasar Pemrograman Web",
-    issuer: "Dicoding Indonesia",
-    date: "Nov 2023",
-    link: "/certificates/Belajar Dasar Pemrograman Web.pdf",
-    image: "/certificate-images/Belajar Dasar Pemrograman Web.jpg",
-  },
+  // Add your certificates here
 ];
 
 const techStack = {

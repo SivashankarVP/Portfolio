@@ -8,8 +8,9 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        'moderniz': ['Moderniz', 'sans-serif'],
-        'bauhaus': ['Bauhaus93', 'sans-serif'],
+        sans: ['"Product Sans"', 'sans-serif'],
+        'moderniz': ['"Product Sans"', 'sans-serif'],
+        'bauhaus': ['"Product Sans"', 'sans-serif'],
       },
       animation: {
         shadowFade: 'shadowFade 5s infinite ease-in-out',
