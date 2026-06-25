@@ -188,8 +188,8 @@ const Header = () => {
                   <a href="/" onClick={(e) => handleNavClick(e, '#home')} className="flex items-center gap-3">
                     <img src={bangzenLogo} alt="Bangzen Logo" className="h-12 w-12 flex-shrink-0" />
                     <div>
-                      <h1 className="font-moderniz text-sm dark:text-[#00ffdc] text-slate-800 whitespace-nowrap">Sivashankar VP</h1>
-                      <p className="font-moderniz text-[9px] dark:text-[#00ffdc] text-slate-600" style={{ textShadow: 'none' }}>
+                      <h1 className="font-moderniz text-sm sm:text-base dark:text-[#00ffdc] text-slate-800">Sivashankar VP</h1>
+                      <p className="font-moderniz text-[9px] hidden sm:block dark:text-[#00ffdc] text-slate-600" style={{ textShadow: 'none' }}>
                         Let's see the awesome Experience
                       </p>
                     </div>
